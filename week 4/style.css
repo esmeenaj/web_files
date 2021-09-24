@@ -1,12 +1,17 @@
 body {
   text-align: center;
   font-family: chicle;
-  font-size: 3vw;
-  font-weight: 80;
+  font-size: 20px;
+  font-weight: 60;
   list-style-position: inside;
   background-color: #7879F1;
   color: white;
 }
+img{
+  width: 25vw;
+  margin: 20px;
+}
+
 #aboutme{
   font-family: average;
   color: white;
