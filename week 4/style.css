@@ -1,8 +1,8 @@
 body {
   text-align: center;
-  font-family: chicle;
+  font-family: 'Roboto Condensed'sans-serif;
   font-size: 20px;
-  font-weight: 60;
+  font-weight: 50;
   list-style-position: inside;
   background-color: #7879F1;
   color: white;
@@ -13,17 +13,17 @@ img{
 }
 
 #aboutme{
-  font-family: average;
-  color: white;
-  background-color: #000000;
+  font-family: 'Oswald', sans-serif;
+  color: purple;
+  background-color: #7879F1;
 }
 #mygoals{
-  font-family: average;
-  color: white;
+  font-family: 'Oswald', sans-serif;
+  color: purple;
   background-color: #5D5FEF;
 }
 #Description{
-  font-family: average;
+  font-family:'Roboto Mono', monospace;
   color: white;
   background-color: #A5A6F6;
 }
@@ -31,7 +31,8 @@ ul{
   text-align: left;
 }
 p {
-  color: Black;
+  color: white;
+  font-family:'Roboto Mono', monospace;
 }
 h1{
   color: #FFFFFF;
