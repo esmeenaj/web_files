@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+  font-family: chicle;
+  font-size: 3vw;
+  font-weight: 80;
+  list-style-position: inside;
+  background-color: #7879F1;
+  color: white;
+}
+#aboutme{
+  font-family: average;
+  color: white;
+  background-color: #000000;
+}
+#mygoals{
+  font-family: average;
+  color: white;
+  background-color: #5D5FEF;
+}
+#Description{
+  font-family: average;
+  color: white;
+  background-color: #A5A6F6;
+}
+ul{
+  text-align: left;
+}
+p {
+  color: Black;
+}
+h1{
+  color: #FFFFFF;
+}
+h2{
+  color: #FFFFFF;
+}
+h3{
+  color: #FFFFFF;
+}
