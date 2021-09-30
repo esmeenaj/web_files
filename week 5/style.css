@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 50;
+  list-style-position: inside;
+  background-color: #D4DFC7;
+  color: white;
+}
+img{
+  width: 25vw;
+  margin: 20px;
+  background-color: #D4DFC7;
+}
+
+#aboutme{
+  font-family: 'Oswald', sans-serif;
+  color: purple;
+  background-color: #D4DFC7;
+}
+#mygoals{
+  font-family: 'Oswald', sans-serif;
+  color: purple;
+  background-color: #D4DFC7;
+}
+#Description{
+  font-family:'Oswald', sans-serif;
+  color: white;
+  background-color: #96C0B7;
+}
+ul{
+  text-align: left;
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+}
+p {
+  color: #605F5F;
+  font-family:'Montserrat', monospace;
+}
+h1{
+  color: #725752;
+}
+h2{
+  color: #725752;
+}
+h3{
+  color: #725752;
+}
