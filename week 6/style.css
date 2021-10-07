@@ -1,14 +1,50 @@
 p{
-  color: blue;
-  font-family: "Bebas-Neue"
+  text-align: center;
+  color: black;
+  font-family: "Ubuntu";
+  font-size: 20px;
+  font-weight: 40;
+  background-color: #ff8b17;
+  width: 500px;
+  margin: auto;
+  padding: 7px;
+  border: solid 2px black;
 }
 
 h1, h2{
-  font-family: "helvetica";
+  text-align: center;
+  font-family: "Gemunu Libre";
+  font-size: 50px;
+  font-weight: 50;
 }
 
-#hero{
-  width: 30vw;
-  height: 10vh;
-  overflow: hidden;
+button{
+  text-align: center;
+  background-color: #ffc117;
+  font-family: "Ubuntu";
+  font-size: 15px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 7px;
+  border: solid 2px black;
+}
+button{
+  text-align: center;
+  background-color: #ffc117;
+  font-family: "Ubuntu";
+  font-size: 15px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 7px;
+  border: solid 2px black;
+
+
+}
+button:hover{
+  border: solid black 3px;
+}
+section{
+  text-align: center;
 }

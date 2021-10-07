@@ -1,2 +1,2 @@
-var submitButtton = document.getElementById("submitButtton");
-submitButtton.addEventListener("click, submitForm");
+var submitButton = document.getElementById("submitButton");
+submitButton.addEventListener("click, submitForm");
