@@ -1,0 +1,36 @@
+button{
+  text-align: center;
+  background-color: #c987ac;
+  font-size: 15px;
+  padding: 5px;
+  margin: auto;
+  border: solid 2px black;
+  font-family: "Playfair Display"
+}
+h1{
+text-align: center;
+color: black;
+font-family: "Raleway";
+font-size: 40px;
+font-weight: 30;
+}
+h2{
+text-align: center;
+color: black;
+font-family: "Playfair Display";
+font-size: 20px;
+font-weight: 30;
+}
+body{
+  background-color: #ffd4ec;
+}
+button:hover{
+border: solid black 2px;
+background-color: #ff1f9c;
+}
+button:active{
+background-color: #ff1f9c;
+}
+section{
+  text-align: center;
+}
