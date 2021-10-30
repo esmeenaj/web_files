@@ -1,0 +1,85 @@
+body{
+background-color: #B5A8AD;
+}
+h1{
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 40px;
+  color: #8F3177;
+}
+h2{
+text-align: center;
+font-family: "Marcellus";
+font-size: 30px;
+width: 300px;
+margin: auto;
+padding: 6px;
+color: #EB6A97;
+}
+h3{
+text-align: center;
+font-family: "Marcellus";
+font-size: 30px;
+width: 300px;
+margin: auto;
+padding: 6px;
+color: #EB6A97;
+}
+p{
+  text-align: center;
+  font-family: "Alegreya";
+  font-size: 15px;
+  width: 300px;
+  margin: auto;
+  padding: 6px;
+  color: #FA8C73;
+}
+button{
+  border-radius: 10px;
+  font-family: "Alegreya";
+  font-size: 15px;
+  color: #9B789E;
+  padding: 5px;
+  width: 100px;
+  border-color: #9B789E;
+  background-color: #FA91E1;
+  flex-grow: 2;
+  align-items: center;
+  margin: 42vh 1vh;
+  text-align: center;
+}
+.buttons{
+  display: flex;
+  padding: 2px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+button:hover{
+  border: solid 1px;
+  border-color: #9B789E;
+  background-color: #FA91E1;
+  text-align: center;
+}
+button:active{
+  background-color: #FA91E1;
+  font-style: italic;
+}
+.schedule{
+  background-color: white;
+  border-radius: 10px;
+  width: 300px;
+  position: absolute;
+  left: 300px;
+  border-color: #9B789E;
+  border: solid 2px;
+}
+.thursdaydivs{
+  background-color: white;
+  border-radius: 10px;
+  width: 300px;
+  position: absolute;
+  right: 300px;
+  border: solid 2px;
+  border-color: #9B789E;
+}

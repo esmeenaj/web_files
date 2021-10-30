@@ -1,0 +1,19 @@
+div{
+  background-color: purple;
+}
+#foods{
+  display: flex;
+}
+
+.options{
+  flex-grow: 1;
+  width: auto;
+  margin: 1vw;
+}
+
+img{
+  max-width: 25vw;
+  height: 30vh;
+  width: 35vw;
+  object-fit: cover;
+}
