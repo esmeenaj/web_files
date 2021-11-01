@@ -1,39 +1,43 @@
 let days = ["monday","tuesday","wednesday","thursday","friday","saturday","sunday"];
-let prevday;
+let prevday = 1;
 
+let dayindex1;
+let prevday1 = 1;
 
 for(i=0; i<document.getElementsByClassName("tabs").length; i++){
   document.getElementsByClassName("day")[i].innerHTML = "<h2>" + day[i] + "</h2>";
   document.getElementsByClassName("day")[i].id= day[i];
-
-  document.getElementsByClassName("day")[i].addEventListener('click',setActive, false);
 }
+for(i=0; i<document.getElementsByTagName("button").length; i++){
+  document.getElementsByTagName("button")[i].addEventListener('click',setActive, false);
+}
+
 
   document.getElementById("thursday").classList.toggle('active');
 
 function setActive(e){
-
-  prevday=document.getElementsByClassName("active")[0].id;
-  if(prevday !=undefined){
-    document.getElementById("prevday").classList.remove("active");
-    document.getElementById(prevday + "day").style.display ="none";
+console.log("buttonClicked");
+console.log(e.target.id);
+console.log(days.indexOf(e.target.id));
+var dayindex= days.indexOf(e.target.id);
+dayindex = dayindex + 1;
+if (dayindex !=prevday) {
+  if (dayindex == 1|| dayindex ==2 || dayindex == 4){
+    dayindex1 = dayindex;
+    document.getElementById("schedule" + dayindex1).style.display = "block";
+    document.getElementById("schedule" + prevday1).style.display = "none";
+    prevday1 = dayindex1;
   }
-  function seeThursday(){
-  document.getElementById("day").innerHTML = "Thursday";
-  document.getElementById("line1").innerHTML = "Make some breakfast";
-  document.getElementById("line2").innerHTML = "Dress in a cute outfit";
-  document.getElementById("line3").innerHTML = "Go out to dinner";
+  else {
+    dayindex1 = 3;
+    if (dayindex1 != prevday1){
+    document.getElementById("schedule" + dayindex1).style.display = "block";
+    document.getElementById("schedule" + prevday1).style.display = "none";
+    }
+    prevday1 = dayindex1;
   }
-  var thursdayButton = document.getElementById("thursday");
-  thursdayButton.addEventListener("click", seeThursday, false);
-
-
-  function seeMonday(){
-  document.getElementById("day").innerHTML = "Monday";
-  document.getElementById("line1").innerHTML = "Go on a 30-45 min walk";
-  document.getElementById("line2").innerHTML = "Listen to a podcast";
-  document.getElementById("line3").innerHTML = "Cook something tasty";
-  }
-  var mondayButton = document.getElementById("monday");
-  mondayButton.addEventListener("click", seeMonday, false);
+  document.getElementById("day" + dayindex).style.display ="block";
+  document.getElementById("day" + prevday).style.display ="none";
+}
+prevday = dayindex;
 }

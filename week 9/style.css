@@ -65,16 +65,15 @@ button:active{
   background-color: #FA91E1;
   font-style: italic;
 }
-.schedule{
+.classes{
   background-color: white;
   border-radius: 10px;
   width: 300px;
   position: absolute;
   left: 300px;
-  border-color: #9B789E;
-  border: solid 2px;
+  border: solid 2px #9B789E;
 }
-.thursdaydivs{
+#day1,#day2,#day3,#day4,#day5,#day6,#day7{
   background-color: white;
   border-radius: 10px;
   width: 300px;
@@ -82,4 +81,7 @@ button:active{
   right: 300px;
   border: solid 2px;
   border-color: #9B789E;
+}
+#day2,#day3,#day4,#day5,#day6,#day7, #schedule2,#schedule3,#schedule4,#schedule5{
+  display: none;
 }
