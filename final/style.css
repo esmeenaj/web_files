@@ -1,0 +1,150 @@
+@media screen and (min-width:800px){
+
+}
+@font-face {
+  font-family: "WagonFont";
+  src: url("assets/Wagon-ExtraLightItalic.otf");
+}
+body{
+  background-color: #E5E5E5;
+}
+#brandheader{
+  display: flex;
+}
+#brandheader h1{
+  display: flex;
+  font-size: 50px;
+  margin: 20px;
+  width: 50vw;
+  font-family: Helvetica;
+  font-weight: lighter;
+}
+#spotlight{
+margin: 10vh 10vw;
+width:100%;
+padding-left: 0;
+}
+h1{
+  color: #CE5010;
+  font-weight: lighter;
+  font-family: Helvetica;
+  margin: 20px;
+}
+nav{
+  width: 50vw;
+  flex-wrap: wrap;
+  justify-content: right;
+  margin: 20px auto 30px calc(100% - 70vw);
+
+}
+nav a{
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #795644;
+  margin-right: 50px;
+}
+a:active {
+  color: black;
+}
+a:hover{
+  color: black;
+}
+#hero{
+  font-size: 20px;
+  width: 100%;
+  margin: 10vh 10vw;
+}
+#hero img{
+  width: 30vw;
+  border: solid black 2px;
+}
+.products{
+  border: solid black 2px;
+}
+h2{
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 40px;
+  /* margin: 20px; */
+}
+h3{
+  font-family: "WagonFont";
+  /* margin: 20px; */
+  font-size: 30px;
+}
+h4{
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 30px;
+  color: #CE5010;
+  /* margin: 20px; */
+}
+h5{
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px;
+}
+p{
+  font-family: Helvetica;
+  font-weight: 100;
+  font-size: 20px;
+  /* margin: 20px; */
+  width: 70%;
+}
+#products img{
+  width: 20vw;
+  border: solid black 2px;
+  margin: 20px;
+  display: flex;
+  font-family: helvetica;
+  font-weight: 100;
+}
+#products{
+  display: flex;
+  flex-wrap: wrap;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+
+  padding: 0;
+}
+figcaption{
+  font-family: helvetica;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 20px;
+  text-align: center;
+}
+button:active{
+  background-color: black;
+  font-family: Helvetica;
+  font-weight: lighter;
+}
+button:hover{
+ background-color: #795644;
+}
+button{
+  border-radius: 10px;
+  font-family: helvetica;
+  font-weight: lighter;
+  background-color: #795644;
+  font-size: 20px;
+  color: white;
+  padding: 15px;
+  align-items: flex-start;
+  /* margin: 20px; */
+}
+#about p{
+  align-content: center;
+  margin: 20px;
+}
+#contact p{
+  align-content: center;
+  margin: 20px;
+}
+#address p{
+  margin: 20px;
+}
